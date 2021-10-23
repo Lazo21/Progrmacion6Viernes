@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "InquilinoBD", "InquilinoBD\InquilinoBD.sqlproj", "{BC3FB0B5-9C4E-47F2-9DED-F400E6DDD25C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "InitialData", "InitialData\InitialData.sqlproj", "{072504CD-676F-4EAB-991B-385A056289DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC3FB0B5-9C4E-47F2-9DED-F400E6DDD25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3FB0B5-9C4E-47F2-9DED-F400E6DDD25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3FB0B5-9C4E-47F2-9DED-F400E6DDD25C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC3FB0B5-9C4E-47F2-9DED-F400E6DDD25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3FB0B5-9C4E-47F2-9DED-F400E6DDD25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3FB0B5-9C4E-47F2-9DED-F400E6DDD25C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{072504CD-676F-4EAB-991B-385A056289DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072504CD-676F-4EAB-991B-385A056289DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072504CD-676F-4EAB-991B-385A056289DE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{072504CD-676F-4EAB-991B-385A056289DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072504CD-676F-4EAB-991B-385A056289DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072504CD-676F-4EAB-991B-385A056289DE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAFC6BF3-1BEA-4898-9970-040CDF1354B7}
+	EndGlobalSection
+EndGlobal
