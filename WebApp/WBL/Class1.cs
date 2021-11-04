@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BD
+namespace WBL
 {
     public class Class1
     {
