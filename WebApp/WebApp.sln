@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BD", "BD\BD.csproj", "{2AE2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{20053BA4-0A88-4358-96E7-B8228F9BE717}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WBL", "WBL\WBL.csproj", "{FEA39E50-F3C3-43CC-B747-195B17036401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WBL", "WBL\WBL.csproj", "{FEA39E50-F3C3-43CC-B747-195B17036401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

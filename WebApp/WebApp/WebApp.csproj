@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Empleado\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.6" />
   </ItemGroup>
 
@@ -14,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Pages\Empleado\Edit.cshtml" />
     <None Include="wwwroot\Assets\%40types\bootstrap-validator\bvenums.js" />
     <None Include="wwwroot\Assets\%40types\bootstrap-validator\bvenums.js.map" />
     <None Include="wwwroot\Assets\%40types\global.js" />
@@ -102,6 +107,14 @@
     <TypeScriptCompile Include="wwwroot\Assets\Plugin\CoreFile\CoreFile.ts" />
     <TypeScriptCompile Include="wwwroot\Assets\Plugin\sweetalert\SwalConfig.ts" />
     <TypeScriptCompile Include="wwwroot\Assets\Plugin\vue\VueLoaderTemplate.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Empleado\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Empleado\Edit.cshtml" />
   </ItemGroup>
 
 </Project>
