@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\App\" />
+    <Folder Include="wwwroot\App\Empleado\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -115,6 +115,12 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Pages\Empleado\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BD\BD.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
+    <ProjectReference Include="..\WBL\WBL.csproj" />
   </ItemGroup>
 
 </Project>
